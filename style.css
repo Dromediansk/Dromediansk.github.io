@@ -29,6 +29,8 @@ h1 {
 }
 
 .btn-warning {
+	width: 100%;
+	font-size: 1em;
 	background-color: #FFFDFA;
 	padding: 15px;
 	border: none;
