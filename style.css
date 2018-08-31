@@ -1,0 +1,45 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+	background-image: url('background_image.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 0% 30%;
+	font-family: 'Raleway', sans-serif;
+
+}
+
+.container-main {
+	width: 100%;
+	height: 500px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+h1 {
+	color: #FFFDFA;
+	text-transform: uppercase;
+	border-bottom: solid 1px #D1C7B8;
+}
+
+.btn-warning {
+	background-color: #FFFDFA;
+	padding: 15px;
+	border: none;
+	font-weight: bold;
+	border-radius: 300px;
+	text-transform: uppercase;
+	transition: all 1s;
+}
+
+.btn-warning:hover {
+	transform: scale(1.1);
+	background-color: #5A7284;
+	color: #FFFDFA;
+}
